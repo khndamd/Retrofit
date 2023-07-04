@@ -22,7 +22,6 @@ class AnimeActivity : AppCompatActivity() {
                 override fun onFailure(call: Call<List<AnimeQuotes>>, t: Throwable) {
                     Toast.makeText(this@AnimeActivity, t.localizedMessage, Toast.LENGTH_SHORT).show()
                 }
-
                 override fun onResponse(
                     call: Call<List<AnimeQuotes>>,
                     response: Response<List<AnimeQuotes>>
