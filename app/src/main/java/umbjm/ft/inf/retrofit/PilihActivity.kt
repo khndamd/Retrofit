@@ -15,7 +15,6 @@ class PilihActivity : AppCompatActivity(), View.OnClickListener {
         findViewById<View>(R.id.p_pic).setOnClickListener(this)
         findViewById<View>(R.id.p_api).setOnClickListener(this)
     }
-
     override fun onClick(view: View) {
         when (view.id) {
             R.id.p_user -> {
