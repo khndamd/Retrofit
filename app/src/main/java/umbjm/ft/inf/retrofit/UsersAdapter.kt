@@ -8,8 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import umbjm.ft.inf.retrofit.data.ResultUsers
 
 
-
-
 class UsersAdapter(val data: List<ResultUsers>?) : RecyclerView.Adapter<UsersAdapter.MyHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.item_user, parent, false)

@@ -8,7 +8,28 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvUser"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:padding="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAnime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_below="@id/rvUser"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_below="@id/rvAnime"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvApi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_below="@id/rvPic"/>
 </RelativeLayout>

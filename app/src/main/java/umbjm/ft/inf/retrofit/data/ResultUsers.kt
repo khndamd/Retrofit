@@ -1,9 +1,8 @@
 package umbjm.ft.inf.retrofit.data
 
-import javax.annotation.Generated
 import com.google.gson.annotations.SerializedName
 
-@Generated("com.robohorse.robopojogenerator")
+
 data class ResultUsers(
 
 	@field:SerializedName("website")
