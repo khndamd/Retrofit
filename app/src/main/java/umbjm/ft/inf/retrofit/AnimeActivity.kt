@@ -1,13 +1,12 @@
 package umbjm.ft.inf.retrofit
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import umbjm.ft.inf.retrofit.data.AnimeQuotes
-import umbjm.ft.inf.retrofit.data.ResultUsers
 import umbjm.ft.inf.retrofit.databinding.ActivityMainBinding
 
 class AnimeActivity : AppCompatActivity() {

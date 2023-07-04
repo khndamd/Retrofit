@@ -2,7 +2,7 @@ package umbjm.ft.inf.retrofit.data
 
 import com.google.gson.annotations.SerializedName
 
-data class EntriesItem(
+data class Entries(
 
     @field:SerializedName("Description")
     val description: String? = null,

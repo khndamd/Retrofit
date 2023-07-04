@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import umbjm.ft.inf.retrofit.data.PicsumPhotos
 
 
 class PicAdapter(val data: List<PicsumPhotos>?) : RecyclerView.Adapter<PicAdapter.MyHolder>() {

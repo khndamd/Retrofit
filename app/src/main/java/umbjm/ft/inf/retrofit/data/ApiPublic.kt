@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class ApiPublic(
 
 	@field:SerializedName("entries")
-	val entries: EntriesItem? = null,
+	val entries: Entries? = null,
 
 	@field:SerializedName("count")
 	val count: Int? = null
